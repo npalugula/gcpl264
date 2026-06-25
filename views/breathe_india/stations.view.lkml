@@ -11,7 +11,7 @@ view: stations {
     # A dimension is a groupable field that can be used to filter query results.
     # This dimension will be called "City" in Explore.
 
-  dimension: city {
+  dimension: city12 {
     type: string
     sql: ${TABLE}.City ;;
   }

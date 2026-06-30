@@ -21,7 +21,7 @@ view: stations {
     sql: ${TABLE}.State ;;
   }
 
-  dimension: station_id {
+  dimension: station_id1234 {
     type: string
     sql: ${TABLE}.StationId ;;
   }

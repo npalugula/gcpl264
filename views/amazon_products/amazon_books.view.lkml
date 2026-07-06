@@ -12,6 +12,7 @@ view: amazon_books {
     # This dimension will be called "Author" in Explore.
 
   dimension: author {
+    label: "Container TEU Quantity"
     type: string
     sql: ${TABLE}.Author ;;
   }

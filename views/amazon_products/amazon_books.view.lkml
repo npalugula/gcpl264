@@ -12,8 +12,6 @@ view: amazon_books {
     # This dimension will be called "Author" in Explore.
 
   dimension: author {
-    label: "Container TEU Quantity"
-    group_item_label: ""
     type: string
     sql: ${TABLE}.Author ;;
   }
@@ -49,6 +47,9 @@ view: amazon_books {
   }
   measure: count {
     type: count
+    label: "Container TEU Quantity"
+    group_label: ""
+    group_item_label: ""
     drill_fields: [book_name]
   }
 }

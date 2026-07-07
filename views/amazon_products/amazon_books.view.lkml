@@ -13,6 +13,7 @@ view: amazon_books {
 
   dimension: author {
     label: "Container TEU Quantity"
+    group_item_label: ""
     type: string
     sql: ${TABLE}.Author ;;
   }
